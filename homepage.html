@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="Logo.png">
+    <title>Orion Trail Tours</title>
+</head>
+<style>
+    body {
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+        background-image: url(https://media1.tenor.com/images/c614f44d62e13a9b9f50722a2c6e9618/tenor.gif?itemid=4427123);
+
+    }
+    *{
+        box-sizing: border-box;
+    }
+
+    header {
+        background-color:  rgb(104, 45, 147);
+        color: #7e3a3a;
+        padding: 1em 0;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:80px;
+    }
+
+    .branding {
+        text-align: left;
+    }
+
+    .branding h1 {
+        margin-top: 10px ;
+        margin-left: 20px;
+        font-size:xx-large;
+    }
+
+    .branding p {
+        margin: 20px;
+        font-size:medium;
+    }
+
+    .navigation {
+        text-align: right;
+    }
+
+    .navigation a {
+        color: #fff;
+        text-decoration: none;
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size:x-large;
+        background-size: cover;
+
+    }
+
+    section {
+
+        margin-left: 150px;
+        margin-right: 160px;
+        margin-top: 20%;
+        margin-bottom: 85px ;
+        height:fit-content;
+        background-color: #201c1c;
+        box-shadow: 0 0 10px rgba(55, 53, 53, 0.1);
+        text-align: left;
+        opacity: 60%;
+    }
+    .sectionfeedb{
+        border-radius: 20%;
+
+        margin-left: 150px;
+        margin-right: 160px;
+        margin-top: 20%;
+        margin-bottom: 85px ;
+        height:fit-content;
+        background-color:url(https://www.hdwallpapers.in/download/dark_purple_smoke_wave_in_black_background_hd_dark_purple-1920x1080.jpg);
+        box-shadow: 0 0 10px rgba(55, 53, 53, 0.1);
+        text-align: left;
+        opacity: 60%;
+    }
+    .secfeed{
+        border-radius: 20%;
+
+        margin-left: 150px;
+        margin-right: 160px;
+        margin-top: 20%;
+        margin-bottom: 85px ;
+        height:fit-content;
+        width: fit-content;
+        text-align: left;
+        background-color: #333;
+        box-shadow: 0 0 10px rgba(55, 53, 53, 0.1);
+
+    }
+    h1,
+    h2 {
+        color: rgb(104, 45, 147);
+        font-size:30px;
+        font-family:Arial, Helvetica, sans-serif;
+    }
+    h3{
+        color: rgb(104, 45, 147);
+        font-size:60px;
+        font-family:Arial, Helvetica, sans-serif;
+        margin-left: 20px;
+        text-align: center;
+    }h4{
+         color:#b32d2d;
+         font-family:Papyrus,fantasy;
+         font-size: 20px;
+     }
+
+    p {
+        font-size:25px;
+        margin-top: 0%;
+        line-height: 1.6;
+        color: rgb(225, 213, 213);
+        font-family:Camria,bold;
+        text-align: center;
+
+    }
+
+    .project {
+        margin-bottom: 20px;
+    }
+
+    footer {
+        text-align: center;
+        padding: 1em 0;
+        background-color: #333;
+        color: #595050;
+    }
+    .home
+    {
+        position: relative;
+        margin-top:0px;
+        width:100%;
+        height:920px;
+        text-align: center;
+        background-image: url(https://forum.sa-mp.ru/uploads/monthly_2020_10/Space-Stars-Black-Background-Gif-1920x1080-.gif.02133d72efc93ce0f898c5dc15dd6adb.gif);
+        background-attachment:scroll;
+        background-position:center;
+        background-repeat: no-repeat;
+        opacity: 60%;
+
+    }
+    img{
+        margin-top:275px;
+        text-align: center;
+        border-radius: 50%;
+        height:350px;
+        width:350px;
+    }
+    .container {
+        width: 50%;
+        margin: auto;
+        overflow: hidden;
+    }
+    .imageleft{
+        display: block;
+        float:right;
+        margin-right:300px;
+        margin-top: 30px;
+        height: 30%;
+        width: 30%;
+        border-radius: 0%;
+        margin-bottom: 10px;
+    }
+    .imageright{
+        float:right;
+        margin-right:150px;
+        margin-top: 50px;
+        height: 30%;
+        width: 30%;
+        border-radius: 0%;
+    }
+    .column {
+        flex:50%;
+        padding:10px;
+        height: 300px;
+    }
+    a:link {
+        color: white;
+    }
+    a:visited {
+        color: white;
+    }
+
+    a:hover {
+        color: #000000;
+    }
+
+    a:active {
+        color: white;
+    }
+    a.ex1:hover, a.ex1:active {
+        color: red;
+    }
+
+    a.ex2:hover, a.ex2:active {
+        font-size: 150%;
+    }
+
+    strong{
+        color: rgb(104,45,147);
+    }
+
+</style>
+<body>
+<header>
+    <div class="navigation">
+        <a href="#about">About</a>
+        <a href="#travelpacks">Travel Packs</a>
+        <a href="#feedback">Feedback Form</a>
+    </div>
+</header>
+<div class="home" style="position: relative;">
+    <img src="Logo.png"  >
+    <br>
+    <div class="branding"><center><h3>Orion Trails Tour</h3></center>
+    </div>
+    <br>
+
+<!--    <div style="text-align: center;" class="navigation">-->
+<!--        <a href="#about" class="navigation">About Us</a>-->
+<!--        <a href="#travelpacks" class="navigation">Travel Packs</a>-->
+<!--        <a href="#feedback" class="navigation">Feedback Form</a>-->
+<!--    </div>-->
+</div>
+<br><br><br><br><br><br><br>
+<section id="about">
+    <div class="conatiner" style="border-radius: 5%;">
+        <br><br><br>
+        <center>  <h3>ABOUT US</h3></center>
+        <p>
+            <b>  The main aim of "Orion Trail Tours" is:</b><br>
+            •	To provide a unique and immersive space tourism experience that captivates <br>and inspires individuals to explore the wonders of outer space. <br>
+            •	The company aims to make space travel accessible to the general public.<br><br>
+            •	Offering a range of carefully curated and exciting travel <br>packages that allow customers to embark on extraordinary journeys beyond Earth.<br><br>
+            "Orion Trail Tours" is defined by a unique blend of key elements<br> that set it apart in the travel and tourism industry:<br><br>
+            <strong >Space-Themed Experiences</strong>:<br> Our company stands out for crafting immersive and<br> thematic travel experiences centered around space exploration. <br>From moon bases to interstellar observatories, every itinerary is carefully designed<br> to offer customers a journey beyond Earth.
+            <br><br><strong>Innovative Packages</strong>: <br>The company's offerings go beyond conventional travel packages. With a focus on innovation,<br> Orion Trail Tours presents travel options that are not only adventurous but also reflect the imagination and curiosity associated with space exploration.
+            <br><br><strong>Environmental Responsibility</strong>:<br> Orion Trail Tours takes pride in its commitment to responsible and sustainable space tourism. The company strives to minimize its ecological footprint, emphasizing eco-friendly practices and environmental stewardship in the pursuit of space exploration.
+            Educational Enrichment: Orion Trail Tours is committed to providing educational value to its customers. Guided tours, interactive sessions, and expert-led experiences aim to enhance the understanding of space science, astronomy, and the broader realm of celestial wonders.
+            <br><br><br>
+        </p>
+    </div>
+</section>
+<section id="travelpacks">
+    <div class="container">
+        <br><br>
+        <h3>TRAVEL PACKS</h3>
+        <p>
+            <b>Explore Our Tour Packages :</b><br><br><br>
+            Celestial Explorer Package:<br>
+            Duration: 7 days and 6 nights <br><br>
+            Destinations: <br>
+            •	Moon Base <br>
+            •	Alpha Mars Colonies <br>
+            •	Saturn's Rings Observation Station <br><br><br>
+            Highlights: <br>
+            •	Guided tour of Moon Base Alpha with an astronaut-led excursion. <br>
+            •	Martian cuisine tasting in the Mars Colonies. <br>
+            •	Stargazing and educational sessions at the Saturn's Rings Observation Station. <br>
+            •	Exclusive access to space-themed events and activities. <br> <br> <br>
+            Galactic Adventure Getaway:  <br>
+            Duration: 10 days and 9 nights  <br> <br> <br>
+            Destinations:  <br>
+            •	Venus Floating Cities  <br>
+            •	Jupiter's Moon Europa Research Station  <br>
+            •	Interstellar Observatory on Alpha Centauri  <br> <br> <br>
+            Highlights:  <br>
+            •	Floating city exploration and cloud-surfing on Venus.  <br>
+            •	Research and interactive experiences at Europa Research Station. <br>
+            •	Journey to the stars with a visit to the Interstellar Observatory on Alpha Centauri.  <br>
+            •	Spacewalk experience for an up-close view of the cosmos. <br> <br> <br>
+
+
+            Interplanetary Honeymoon Escape: <br> <br>
+            Duration: 14 days and 13 nights  <br>
+            Destinations:  <br>
+            •	Romantic Moonlit Cruise around Earth  <br>
+            •	Luxury Accommodation on Ganymede, Jupiter's Moon  <br>
+            •	Intimate Dinner on the Surface of Titan, Saturn's Moon  <br> <br>
+            Highlights:  <br>
+            •	Private moonlit cruise with panoramic views of Earth.  <br>
+            •	Exclusive stay in a luxury habitat on Ganymede.  <br>
+            •	Gourmet dinner on the surface of Titan with breathtaking views of Saturn.  <br>
+            •	Couple's stargazing experience with a personal astronomer. <br>
+            <br> <br>
+        </p>
+    </div>
+</section>
+
+<section id="feedback">
+    <div class="container">
+        <br><br>
+        <h3>FEEDBACKS</h3>
+        <br><br><br>
+        <b><h2>“Educational Enrichment”</h2></b><br><p>
+        “Orion Trail Tours is committed to providing educational value to its customers. Guided tours, interactive sessions, and expert-led experiences aim to enhance the understanding of space science, astronomy, and the broader realm of celestial wonders.”</p>
+        <br><br>
+
+        <b><h2>"Educational and Exciting!"</h2></b><br><p>
+        "The educational aspects of the tour were a highlight for us. The guided tours and informative sessions provided a deeper understanding of space science. The mix of education and excitement made this trip truly special. Kudos to the team at Orion Trail Tours!"
+    </p><br><br>
+        <b><h2>"A Stellar Vacation!"</h2></b><p>
+        "Our family vacation with Orion Trail Tours surpassed all expectations. From the luxurious space-themed accommodations to the breathtaking views of distant planets, every moment was magical. It was a stellar escape that we'll cherish forever."
+    </p><br><br>
+        <b><h2>"Incredible Space Cuisine!"</h2></b><p>
+        "The gastronomic journey was out of this world! The fusion of Earthly and space-inspired cuisine was a delightful surprise. Dining on the surface of Titan with Saturn in the backdrop was an experience we never imagined possible. Bravo to the culinary team!"
+    </p><br><br>
+        <b><h2>"Smooth Operations and Professionalism"</h2></b><p>
+        "From the moment we booked our trip until our safe return, Orion Trail Tours exhibited exceptional professionalism. The logistics were seamless, and the entire team ensured our safety and comfort throughout. We felt in good hands, allowing us to fully enjoy the adventure."
+
+    </p>
+
+    </div><br><br><br>
+
+    <p>
+        <b>HEY! Submit your feedback!</b><br>
+    </p>
+    <center> <button style="background-color:rgb(104, 45, 147) ;font-size: 30px;"><a href="event.html">SUBMIT</a></button></center>
+
+    <br><br><br>
+
+</section>
+</body>
+</html>
